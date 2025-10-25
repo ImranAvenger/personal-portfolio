@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Basic HTML Website Articles Page" />
+    <meta name="keywords" content="HTML, Layouts, semantic HTML" />
+    <meta name="author" content="Al Imran" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Articles | Al Imran" />
+    <meta property="og:description" content="Basic HTML Website Articles Page" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourdomain.com/articles.html" />
+    <meta property="og:image" content="https://cdn.dribbble.com/userupload/32821810/file/original-479acdc7b33c2a19df8bca51209c9ec8.jpg" />
+    <meta property="og:site_name" content="Al Imran" />
+    <meta property="og:locale" content="en_US" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Articles</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; align-items: center; gap: 10px">
+          <img
+            src="https://cdn.dribbble.com/userupload/32821810/file/original-479acdc7b33c2a19df8bca51209c9ec8.jpg"
+            alt="logo"
+            style="width: 50px; height: 50px"
+          />
+          <p>Al Imran</p>
+        </div>
+        <ul style="display: flex; list-style: none; gap: 20px">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <section style="text-align: center; margin: 50px 0">
+        <h1>Frontend Developer</h1>
+        <p>html only with proper layout, no styling</p>
+      </section>
+    </header>
+    <main>
+      <section style="display: flex; justify-content: center; gap: 20px">
+        <div>
+          <div>
+            <h2>Work Experience</h2>
+            <p><b>roadmap.sh</b></p>
+            <p>Solved all the frontend projects</p>
+            <a href="#">Visit my profile</a>
+          </div>
+          <div>
+            <h2>OpenSource Work</h2>
+            <p>
+              Contributed to 50 opensource projects. Made my own projects with
+              200 GitHub Stars.
+            </p>
+            <a href="#">Visit my GitHub Profile</a>
+          </div>
+        </div>
+        <div>
+          <h2>Education</h2>
+          <p>
+            Graduated with 3.67 out of 4 CGPA. Won Acme Hackathon. Organized 30
+            sessions.
+          </p>
+          <p>Courses I took:</p>
+          <ul style="list-style: none; padding: 0" class="courses-list">
+            <li>Object Oriented Programming</li>
+            <li>Data Structure and Algorithms</li>
+            <li>Web Engineering</li>
+            <li>Artificial Intelligence</li>
+            <li>Human Computer Interaction</li>
+            <li>Computer Graphics</li>
+            <li>Database Management Systems</li>
+            <li>Distributed Database Systems</li>
+            <li>Discrete Mathematics</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer style="display: flex; justify-content: center; align-items: center">
+      <p>© all rights reserved 2025</p>
+    </footer>
+  </body>
+</html>
